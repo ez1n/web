@@ -189,13 +189,6 @@ html{
     border-color: rgb(130, 205, 255);
 }
 
-#btn_message{
-    width: 55px; height: 35px;
-    border-color: rgb(178, 87, 214);
-    background-color: rgba(235, 185, 255, 0.76);
-    text-align: center;
-}
-
 /*하트 라인*/
 
 .hr-sect {
