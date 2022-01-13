@@ -198,6 +198,7 @@ btn_favorite_food_open.addEventListener('click', () => {
   else if (favorite_food_check == "open") {
     favorite_food.innerHTML = ""
     favorite_food_check = "close"
+    btn_favorite_food_open.innerHTML = "OPEN"
   }
 })
 
