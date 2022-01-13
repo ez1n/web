@@ -168,3 +168,19 @@ html{
     border-color: rgb(255, 234, 118);
     background-color: rgba(255, 254, 190, 0.829);
 }
+
+#strawberry_moon_lyrics_part:hover {
+    background-color:rgba(225, 174, 255, 0.322) ;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: max-content;
+}
+
+#warning_lyrics_part:hover {
+    background-color:rgba(255, 174, 241, 0.322) ;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: max-content;
+}
