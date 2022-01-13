@@ -140,10 +140,9 @@ btn_favorite_things_open.addEventListener('click', () => {
        <br>college classmate3
       </div>
     </div>
-    <br> <br>
+    <br>
   </ol>
-  <br>
-  <hr> <br>`
+  <div class="hr-sect" style="font-size: 15px;">♥</div> <br>`
     btn_favorite_things_open.innerHTML = "CLOSE"
     favorite_things_check = "open"
   }
