@@ -86,7 +86,7 @@ btn_favorite_things_open.addEventListener('click', () => {
       </div>
       <div id="trip">
         <img id="img" src="imgaes/trip7.jpg" alt=JeJu_Island2 title=trip6 width="150">
-        JeJu_Island2
+        JeJu Island2
       </div>
     </div>
     <br> <br>
@@ -105,35 +105,35 @@ btn_favorite_things_open.addEventListener('click', () => {
       </div>
       <div id="friends_members">
        <img id="img" src="imgaes/friends5.jpg" alt=2018_leadership_club title=friends3 width="150">
-       2018_leadership_club
+       2018 leadership club
       </div>
     </div>
     <div id="friends">
       <div id="friends_members">
         <img id="img" src="imgaes/friends6.jpg" alt=du_hyo_jin title=friends4 width="150">
-        du_hyo_jin
+        du hyo jin
       </div>
       <div id="friends_members">
         <img id="img" src="imgaes/friends7.jpg" alt=machine_learning title=friends5 width="150">
-        machine_learning
+        machine learning
       </div>
       <div id="friends_members">
         <img id="img" src="imgaes/friends8.jpg" alt=college_juniors title=friends6 width="150">
-        college_juniors
+        college juniors
       </div>
     </div>
     <div id="friends">
       <div id="friends_members">
         <img id="img" src="imgaes/friends9.jpg" alt=college_classmate1 title=friends7 width="150">
-        college_classmate1
+        college classmate1
       </div>
       <div id="friends_members">
         <img id="img" src="imgaes/friends2.jpg" alt=cheering_club title=friends8 height="150">
-        cheering_club
+        cheering club
       </div>
       <div id="friends_members">
        <img id="img" src="imgaes/friends1.jpg" alt=title=college_classmate2 friends9 width="150">
-       college_classmate2
+       college classmate2
       </div>
     </div>
     <br> <br>
