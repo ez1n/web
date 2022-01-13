@@ -1,0 +1,41 @@
+body {
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    background-color: rgba(255, 251, 218, 0.781);
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+#my_profile {
+    font-family: 'Itim', cursive;
+    font-size: 23px;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+#singer {
+    background-color: rgba(182, 210, 252, 0.61);
+    width: max-content; height: auto;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+#lyrics {
+    font-family: 'Single Day', cursive;
+}
+
+#img {
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+hr {
+    border-top: 4px double #bbb; text-align: cneter;
+}
