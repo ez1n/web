@@ -128,12 +128,16 @@ btn_favorite_things_open.addEventListener('click', () => {
         <br>college classmate1
       </div>
       <div id="friends_members">
-        <img id="img" src="images/friends2.jpg" alt=cheering_club title=friends8 height="150">
+      <img id="img" src="images/friends10.jpg" alt=title=college_classmate2 friends8 width="150">
+      <br>college classmate2
+      </div>
+      <div id="friends_members">
+        <img id="img" src="images/friends2.jpg" alt=cheering_club title=friends9 height="150">
         <br>cheering club
       </div>
       <div id="friends_members">
-       <img id="img" src="images/friends1.jpg" alt=title=college_classmate2 friends9 width="150">
-       <br>college classmate2
+       <img id="img" src="images/friends1.jpg" alt=title=college_classmate3 friends10 width="150">
+       <br>college classmate3
       </div>
     </div>
     <br> <br>
