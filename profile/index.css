@@ -2,7 +2,14 @@ body {
     font-family: 'Gaegu', cursive;
     font-size: 20px;
     background-color: rgba(255, 251, 218, 0.781);
+    padding-left: 20px;
+    /*드래그 방지*/
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
 }
+
 h1 {
     font-family: 'Permanent Marker', cursive;
 }
@@ -38,4 +45,62 @@ a:hover {
 
 hr {
     border-top: 4px double #bbb; text-align: cneter;
+}
+
+button {
+    width:50px; height: 40px;
+    background-color: rgb(255, 171, 92);
+    border-radius: 70px;
+    border: 3px solid rgb(255, 111, 92);
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: rgb(255, 133, 20);
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+#music {
+    background-color: rgb(255, 190, 190);
+    border-radius: 5px;
+}
+
+#profile {
+    display: flex;
+}
+
+#profile_img {
+    padding-top: 10px;
+    width: 200px;
+}
+
+#my_profile {
+    width: 500px;
+}
+
+#family {
+    display: flex;
+}
+
+#family_members {
+    width: 200px;
+    text-align: center;
+}
+
+#btn_favorite_things_open {
+    width: 65px
+}
+
+#top {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(248, 233, 101, 0.685);
+    border-radius: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
 }

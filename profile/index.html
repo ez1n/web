@@ -14,8 +14,14 @@
 </head>
 
 <body>
-  <embed src="https://www.youtube.com/v/sqgxcCjD04s?version=2&autoplay=1&loop=&hl=ko_KR&rel=0"
-    type="application/x-shockwave-flash" width="300" height="30">
+
+  <br>
+  <button id="btn_play">PLAY</button>
+  <button id="btn_stop">STOP</button>
+  <br> <br>
+  <span id="music">노래를 재생해 주세요!</span>
+
+
 
   <!--input type="button"을 사용해서 음악 재생 가능한가?-->
 
@@ -24,19 +30,22 @@
   <!--소개-->
 
   <h2 id="title">Introduce Myself</h2>
-  <img id="img" src="imgaes/yejin.jpg" alt="yejin" title="yejin" width="150">
 
-  <div id="my_profile">
-    <ul>
-      <li>name : Jeon Ye Jin</li>
-      <li>age : 25 (1998. 12. 12)</li>
-      <li>academic ability : Myongji unv. mathmatics</li>
-      <li>tel : <a href="telto:010-9228-8704">010-9228-8704</a></li>
-      <li>e-mail : <a href="mailto:eodrmfdl1004@naver.com">eodrmfdl1004@naver.com</a></li>
-      <li>github : <a href="http://www.github.com/ez1n">github.com/ez1n</a></li>
-    </ul>
+  <div id="profile">
+    <div id="profile_img"><img id="img" src="imgaes/yejin.jpg" alt="yejin" title="yejin" width="150"></div>
+
+    <div id="my_profile">
+      <ul>
+        <li>name : Jeon Ye Jin</li>
+        <li>age : 25 (1998. 12. 12)</li>
+        <li>academic ability : Myongji unv. mathmatics</li>
+        <li>tel : <a href="telto:010-9228-8704">010-9228-8704</a></li>
+        <li>e-mail : <a href="mailto:eodrmfdl1004@naver.com">eodrmfdl1004@naver.com</a></li>
+        <li>github : <a href="http://www.github.com/ez1n">github.com/ez1n</a></li>
+      </ul>
+    </div>
   </div>
-  <br>
+  <br> <br>
   <hr> <br>
 
   <!--꿈-->
@@ -56,12 +65,16 @@
   <br>
   <p id="dream">그렇게해서 생겨난 나의 꿈은, </p> <br>
   <ol>
-    <h3><li>Machine Learning Engineer</li></h3> <br>
+    <h3>
+      <li>Machine Learning Engineer</li>
+    </h3> <br>
     <img
       src="https://cdn.inflearn.com/public/courses/326805/cover/eb8e8f16-8abe-40e0-8fe9-686a8b081ac3/Artboard%201.png"
       id="img" alt="machine learning engineer" title="machine learning engineer" height="150">
     <br><br>
-    <h3><li>Frontend Developer</li></h3> <br>
+    <h3>
+      <li>Frontend Developer</li>
+    </h3> <br>
     <img src="https://blog.kakaocdn.net/dn/xZTsA/btq6nBzJfZ3/FVGyEUNJ4wwdUVN7MMKBhk/img.jpg" id="img"
       alt="frontend web development" title="frontend web development" height="150">
   </ol>
@@ -74,46 +87,17 @@
 
   <!--좋아하는 것-->
 
-  <h2 id="title">Favorite Things</h2>
-  <ol>
-    <h3><li>Family</li></h3> <br>
-    <img id="img" src="imgaes/family1.jpg" alt=parents title=family1 width="150">
-    <img id="img" src="imgaes/family2.jpg" alt=sister title=famliy2 width="150">
-    <img id="img" src="imgaes/family3.jpg" alt=sister2 title=famlily3 width="150">
-    <img id="img" src="imgaes/family4.jpg" alt=cousin title=famlily4 width="150">
-    <br><br>
-
-  <h3><li>Trip</li></h3> <br>
-    <img id="img" src="imgaes/trip2.jpg" alt=Petite_France title=trip1 width="150">
-    <img id="img" src="imgaes/trip3.jpg" alt=Nami_Island title=trip2 width="150">
-    <img id="img" src="imgaes/trip4.jpg" alt=ChunCheon title=trip3 width="150">
-    <br> <br>
-    <img id="img" src="imgaes/trip1.jpg" alt=Busan title=trip4 height="150">
-    <img id="img" src="imgaes/trip6.jpg" alt=JeJu_Island1 title=trip5 width="150">
-    <img id="img" src="imgaes/trip7.jpg" alt=JeJu_Island2 title=trip6 width="150">
-    <br> <br>
-
-  <h3><li>Friends</li></h3> <br>
-    <img id="img" src="imgaes/friends3.jpg" alt=Mate title=friends1 width="150">
-    <img id="img" src="imgaes/friends4.jpg" alt=GELB title=friends2 width="150">
-    <img id="img" src="imgaes/friends5.jpg" alt=2018_leadership_club title=friends3 width="150">
-    <img id="img" src="imgaes/friends2.jpg" alt=cheering_club title=friends4 height="150">
-    <img id="img" src="imgaes/friends1.jpg" alt= title=college_classmate1 friends5 width="150">
-    <br><br>
-    <img id="img" src="imgaes/friends6.jpg" alt=du_hyo_jin title=friends6 width="150">
-    <img id="img" src="imgaes/friends7.jpg" alt=machine_learning title=friends7 width="150">
-    <img id="img" src="imgaes/friends8.jpg" alt=college_juniors title=friends8 width="150">
-    <img id="img" src="imgaes/friends9.jpg" alt=college_classmate2 title=friends9 width="150">
-    <br> <br>
-  </ol>
-  <br>
-  <hr> <br>
+ <h2 id="title">Favorite Things</h2>
+ <button id="btn_favorite_things_open">OPEN</button>
+ <div id="favorite_things"></div>
 
   <!--좋아하는 음식-->
 
   <h2 id="title">Favorite Food</h2>
   <ol>
-  <h3><li>Tteokbokki</li></h3> <br>
+    <h3>
+      <li>Tteokbokki</li>
+    </h3> <br>
     <img id="img" src="https://img.insight.co.kr/static/2020/10/30/700/img_20201030135303_777z5500.webp" alt="신전떡볶이"
       title="Tteokbokki1" width="150">
     &nbsp;
@@ -124,7 +108,9 @@
       alt="청년다방" title="Tteokbokki3" width="150">
     <br> <br>
 
-  <h3><li>Haejangguk</li></h3> <br>
+    <h3>
+      <li>Haejangguk</li>
+    </h3> <br>
     <img id="img" src="https://t1.daumcdn.net/cfile/tistory/99E7A9335CCB94A70A" alt="뼈해장국" title="Haejangguk"
       height="150">
   </ol>
@@ -328,6 +314,12 @@
   <hr> <br>
   <p align="center">for my shining life</p>
   <br>
+
+  <div id="top">
+    <a href="#btn_play"><div id="top">TOP</div></a>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 
 </html>
