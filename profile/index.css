@@ -43,10 +43,6 @@ a:hover {
     box-shadow: 3px 3px 3px 3px gray;
 }
 
-hr {
-    border-top: 4px double #bbb; text-align: cneter;
-}
-
 button {
     width:50px; height: 40px;
     background-color: rgb(255, 171, 92);
@@ -184,3 +180,24 @@ html{
     padding-right: 10px;
     max-width: max-content;
 }
+
+/*하트 라인*/
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #bbb;
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+  .hr-sect::before,
+  .hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: #bbb;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+  }
