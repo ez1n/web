@@ -29,7 +29,7 @@ a:hover {
 
 #singer {
     background-color: rgba(182, 210, 252, 0.61);
-    width: max-content; height: auto;
+    width: 370px; height: auto;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px gray;
 }
@@ -83,13 +83,54 @@ button:hover {
 }
 
 #family_members {
-    width: 200px;
+    width: 180px;
+    text-align: center;
+}
+
+#travel {
+    display: flex;
+}
+
+#trip {
+    width: 180px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#friends {
+    display: flex;
+}
+
+#friends_members {
+    width: 180px;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+#food {
+    display: flex;
+}
+
+#favorite_food_list {
+    width: 180px;
     text-align: center;
 }
 
 #btn_favorite_things_open {
-    width: 65px
+    width: 65px;
+    border-radius: 5px;
+    border-color: rgb(255, 165, 202);
+    background-color: rgba(255, 215, 245, 0.884);
 }
+
+#btn_favorite_food_open {
+    width: 65px;
+    border-radius: 5px;
+    border-color: rgb(255, 165, 202);
+    background-color: rgba(255, 215, 245, 0.884);
+}
+
 
 #top {
     position: fixed; 
@@ -103,4 +144,27 @@ button:hover {
 
 html{
     scroll-behavior: smooth;
+}
+
+#favorite_singer {
+    display: flex;
+}
+
+#favorite_singer_img {
+    width: 180px;
+    padding-top:55px;
+}
+
+#btn_sj_lyrics {
+    width: 80px; height: 30px;
+    border-radius: 5px;
+    border-color: rgb(255, 234, 118);
+    background-color: rgba(255, 254, 190, 0.829);
+}
+
+#btn_IU_lyrics {
+    width: 80px; height: 30px;
+    border-radius: 5px;
+    border-color: rgb(255, 234, 118);
+    background-color: rgba(255, 254, 190, 0.829);
 }
