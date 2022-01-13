@@ -28,7 +28,7 @@ btn_play.addEventListener("mouseout", () => {
   }
 })
 
-//좋아하는 것 button//
+// 좋아하는 것 button //
 
 const btn_favorite_things_open = document.querySelector("#btn_favorite_things_open")
 let favorite_things_check = "close"
