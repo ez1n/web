@@ -1,5 +1,5 @@
 ## My_Profile
 
-Introduce Myself_
+🐣 Introduce Myself_
 
-<a href="https://ez1n-profile.netlify.app/">Go to my profile</a>
+<a href="https://ez1n-profile.netlify.app/">👉Go to my profile👈</a>
