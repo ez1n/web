@@ -1,5 +1,5 @@
-document.write("<script src='lyrics.js'></script>");
-document.write("<script src='favorites.js'></script>");
+document.write("<script src='files/lyrics.js'></script>");
+document.write("<script src='files/favorites.js'></script>");
 
 const btn_play = document.querySelector("#btn_play");
 const btn_stop = document.querySelector("#btn_stop");
