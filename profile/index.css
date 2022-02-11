@@ -43,14 +43,15 @@ a:hover {
     box-shadow: 3px 3px 3px 3px gray;
 }
 
-button {
+button, #send_btn {
     width:50px; height: 40px;
     background-color: rgb(255, 171, 92);
     border-radius: 70px;
     border: 3px solid rgb(255, 111, 92);
+    cursor: pointer;
 }
 
-button:hover {
+button:hover, #send_btn:hover {
     cursor:pointer;
     background-color: rgb(255, 133, 20);
     box-shadow: 2px 2px 2px 2px lightgray;
@@ -113,20 +114,12 @@ button:hover {
     text-align: center;
 }
 
-#btn_favorite_things_open {
-    width: 65px;
+#btn_favorite_food_open, #btn_favorite_things_open {
+    width: 65px; height: 40px;
     border-radius: 5px;
     border-color: rgb(255, 165, 202);
     background-color: rgba(255, 215, 245, 0.884);
 }
-
-#btn_favorite_food_open {
-    width: 65px;
-    border-radius: 5px;
-    border-color: rgb(255, 165, 202);
-    background-color: rgba(255, 215, 245, 0.884);
-}
-
 
 #top {
     position: fixed; 
@@ -151,14 +144,7 @@ html{
     padding-top:55px;
 }
 
-#btn_sj_lyrics {
-    width: 80px; height: 30px;
-    border-radius: 5px;
-    border-color: rgb(255, 234, 118);
-    background-color: rgba(255, 254, 190, 0.829);
-}
-
-#btn_IU_lyrics {
+#btn_IU_lyrics, #btn_sj_lyrics {
     width: 80px; height: 30px;
     border-radius: 5px;
     border-color: rgb(255, 234, 118);
@@ -185,6 +171,15 @@ html{
     height: 30px;
     width: 300px;
     text-align: center;
+    background-color: rgb(218, 240, 255);
+    border-color: rgb(130, 205, 255);
+}
+
+#from_name {
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
     background-color: rgb(218, 240, 255);
     border-color: rgb(130, 205, 255);
 }

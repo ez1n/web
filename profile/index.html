@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <br>
   <button id="btn_play">PLAY</button>
   <button id="btn_stop">STOP</button>
@@ -34,11 +33,12 @@
     <div id="my_profile">
       <ul>
         <li>name : Jeon Ye Jin</li>
-        <li>age : 25 (1998. 12. 12)</li>
+        <li>age : <span id="age"></span> (1998. 12. 12)</li>
         <li>academic ability : Myongji unv. mathmatics</li>
         <li>tel : <a href="telto:010-9228-8704"><em>010-9228-8704</em></a></li>
         <li>e-mail : <a href="mailto:eodrmfdl1004@naver.com"><em>eodrmfdl1004@naver.com</em></a></li>
         <li>github : <a href="http://www.github.com/ez1n" target="_blank"><em>github.com/ez1n</em></a></li>
+        <li>blog : <a href="https://ttugttag-coding.tistory.com/" target="_blank"><em>ttugttag-coding.tistory.com/<em></a></li>
       </ul>
     </div>
   </div>
@@ -159,7 +159,11 @@
   <p align="center">for my shining life</p>
   <div class="hr-sect" style="font-size: 15px;">♥</div> <br>
 
+
   <input id="cheer_message" type="text" placeholder="예진이에게 보내는 응원의 한마디!">
+  <input id="from_name" type="text" placeholder="보내는 사람">
+  <input id="send_btn" type="submit" value="send">
+  <div id="logs"></div>
 
 
   <br> <br>
@@ -170,6 +174,15 @@
   </div>
 
   <script src="index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+    emailjs.init("user_QWY151hZWPE3JDJdqX4NS");
+    })();
+  </script>
+
+  
+
 </body>
 
 </html>
