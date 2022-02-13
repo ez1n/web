@@ -115,7 +115,6 @@ btn_sj_lyrics.addEventListener("click", () => {
 //const form = document.querySelector('#form');
 const send_btn = document.querySelector('#send_btn');
 const logs = document.querySelector('#logs');
-document.querySelector('#cheer_message').focus();
 
 send_btn.addEventListener('click', () => {
   const template_params = {
