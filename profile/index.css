@@ -18,7 +18,7 @@ h2 {
     font-family: 'Patrick Hand', cursive;
 }
 
-#my_profile {
+.my_profile {
     font-family: 'Itim', cursive;
     font-size: 23px;
 }
@@ -27,23 +27,23 @@ a:hover {
     color: lightpink;
 }
 
-#singer {
+.singer {
     background-color: rgba(182, 210, 252, 0.61);
     width: 370px; height: auto;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px gray;
 }
 
-#lyrics {
+.lyrics {
     font-family: 'Single Day', cursive;
 }
 
-#img {
+.img {
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px gray;
 }
 
-button, #send_btn {
+button, .send_btn {
     width:50px; height: 40px;
     background-color: rgb(255, 171, 92);
     border-radius: 70px;
@@ -51,77 +51,81 @@ button, #send_btn {
     cursor: pointer;
 }
 
-button:hover, #send_btn:hover {
+button:hover, .send_btn:hover {
     cursor:pointer;
     background-color: rgb(255, 133, 20);
     box-shadow: 2px 2px 2px 2px lightgray;
 }
 
-#music {
+.music {
     background-color: rgb(255, 190, 190);
     border-radius: 5px;
 }
 
-#profile {
+.profile {
     display: flex;
 }
 
-#profile_img {
+.profile_img {
     padding-top: 10px;
     width: 200px;
 }
 
-#my_profile {
+.my_profile {
     width: 500px;
 }
 
-#family {
+.main_comment {
+    text-align: center;
+}
+
+.family {
     display: flex;
 }
 
-#family_members {
+.family_members {
     width: 180px;
     text-align: center;
 }
 
-#travel {
+.travel {
     display: flex;
 }
 
-#trip {
+.trip {
     width: 180px;
     text-align: center;
     padding-bottom: 10px;
 }
 
-#friends {
+.friends {
     display: flex;
 }
 
-#friends_members {
+.friends_members {
     width: 180px;
     text-align: center;
     padding-right: 30px;
     padding-bottom: 10px;
 }
 
-#food {
+.food {
     display: flex;
 }
 
-#favorite_food_list {
+.favorite_food_list {
     width: 180px;
     text-align: center;
 }
 
-#btn_favorite_food_open, #btn_favorite_things_open {
+.btn_favorite_food_open, .btn_favorite_things_open {
     width: 65px; height: 40px;
     border-radius: 5px;
     border-color: rgb(255, 165, 202);
     background-color: rgba(255, 215, 245, 0.884);
 }
 
-#top {
+.top {
     position: fixed; 
     bottom: 20px;
     right: 20px;
@@ -135,23 +139,23 @@ html{
     scroll-behavior: smooth;
 }
 
-#favorite_singer {
+.favorite_singer {
     display: flex;
 }
 
-#favorite_singer_img {
+.favorite_singer_img {
     width: 180px;
     padding-top:55px;
 }
 
-#btn_IU_lyrics, #btn_sj_lyrics {
+.btn_IU_lyrics, .btn_sj_lyrics {
     width: 80px; height: 30px;
     border-radius: 5px;
     border-color: rgb(255, 234, 118);
     background-color: rgba(255, 254, 190, 0.829);
 }
 
-#strawberry_moon_lyrics_part:hover {
+.strawberry_moon_lyrics_part:hover {
     background-color:rgba(225, 174, 255, 0.322) ;
     border-radius: 10px;
     padding-left: 10px;
@@ -159,7 +163,7 @@ html{
     max-width: max-content;
 }
 
-#warning_lyrics_part:hover {
+.warning_lyrics_part:hover {
     background-color:rgba(255, 174, 241, 0.322) ;
     border-radius: 10px;
     padding-left: 10px;
@@ -167,7 +171,7 @@ html{
     max-width: max-content;
 }
 
-#cheer_message{
+.cheer_message{
     height: 30px;
     width: 300px;
     text-align: center;
@@ -175,7 +179,7 @@ html{
     border-color: rgb(130, 205, 255);
 }
 
-#from_name {
+.from_name {
     height: 30px;
     width: 70px;
     text-align: center;
